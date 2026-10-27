@@ -1,0 +1,45 @@
+{
+  "name": "roblox-vfx-lab",
+  "version": "1.0.0",
+  "description": "Write WGSL effects, bake them into Roblox flipbook textures and put them in Studio: an MCP server, a browser lab and examples",
+  "license": "MIT",
+  "author": "Nevel Studios",
+  "type": "module",
+  "bin": {
+    "roblox-vfx-lab": "src/index.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "site",
+    "examples",
+    "scripts"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NevelStudios/roblox-vfx-lab.git"
+  },
+  "homepage": "https://nevelstudios.github.io/roblox-vfx-lab/",
+  "keywords": [
+    "roblox",
+    "vfx",
+    "mcp",
+    "wgsl",
+    "webgpu",
+    "flipbook",
+    "particles"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test \"test/*.test.js\"",
+    "smoke": "node scripts/examples.js --check",
+    "examples": "node scripts/examples.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "webgpu": "0.6.2"
+  }
+}

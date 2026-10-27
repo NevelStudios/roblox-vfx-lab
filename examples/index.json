@@ -1,0 +1,132 @@
+[
+  {
+    "name": "portal/green-portal",
+    "node": "portal/green-portal",
+    "title": "Green portal",
+    "description": "A lumpy disk of green liquid with painted spiral arms that wind into a bright eye, a lime rim and white specks.",
+    "target": "ParticleEmitter",
+    "settings": {
+      "LightEmission": 0.2
+    },
+    "grid": 4,
+    "frames": 16,
+    "mode": "loop",
+    "duration": 1.5,
+    "margin": 0.02,
+    "values": {
+      "radius": [
+        0.66
+      ],
+      "wobble": [
+        0.08
+      ],
+      "arms": [
+        4
+      ],
+      "swirl": [
+        2.2
+      ],
+      "strokes": [
+        3
+      ],
+      "eye": [
+        0.85
+      ],
+      "specks": [
+        0.6
+      ],
+      "halo": [
+        0.2
+      ],
+      "deep": [
+        0.1137,
+        0.5412,
+        0.1216
+      ],
+      "mid": [
+        0.2706,
+        0.7216,
+        0.1686
+      ],
+      "light": [
+        0.5765,
+        0.8784,
+        0.2353
+      ],
+      "glint": [
+        0.9137,
+        1,
+        0.6196
+      ],
+      "rim": [
+        0.7137,
+        0.9333,
+        0.2745
+      ]
+    },
+    "bake": {
+      "size": 1024,
+      "grid": 4,
+      "mode": "loop",
+      "duration": 1.5
+    },
+    "png": "examples/portal/green-portal.png",
+    "recipe": "examples/portal/green-portal.json",
+    "wgsl": "examples/portal/green-portal.wgsl",
+    "preview": "docs/media/portal-green-portal.png"
+  },
+  {
+    "name": "space/black-hole",
+    "node": "space/black-hole",
+    "title": "Black hole",
+    "description": "A ray-traced black hole: a wide, thick accretion disk lensed over and under the shadow, with a crisp photon ring.",
+    "target": "ParticleEmitter",
+    "settings": {
+      "LightEmission": 0
+    },
+    "grid": 4,
+    "frames": 16,
+    "mode": "loop",
+    "duration": 2,
+    "margin": 0.02,
+    "values": {
+      "tilt": [
+        0.1
+      ],
+      "roll": [
+        0
+      ],
+      "heat": [
+        1
+      ],
+      "glow": [
+        3
+      ],
+      "thickness": [
+        0.05
+      ],
+      "doppler": [
+        0.3
+      ],
+      "turbulence": [
+        0.75
+      ],
+      "ring": [
+        0.8
+      ],
+      "seed": [
+        3
+      ]
+    },
+    "bake": {
+      "size": 1024,
+      "grid": 4,
+      "mode": "loop",
+      "duration": 2
+    },
+    "png": "examples/space/black-hole.png",
+    "recipe": "examples/space/black-hole.json",
+    "wgsl": "examples/space/black-hole.wgsl",
+    "preview": "docs/media/space-black-hole.png"
+  }
+]
